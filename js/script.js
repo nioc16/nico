@@ -29,6 +29,7 @@ console.log("Division :", a / b);
 
     // Les conditions: 
     // Saisie de la note entre 0 et 20:
+    // && veux dire 'et' pour remplir deux conditions
     
    let note = 20;
 
