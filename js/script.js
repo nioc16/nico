@@ -1,21 +1,27 @@
+// console.log("message") permet d'afficher un message dans console
+
 console.log("Bonjour depuis un fichier externe !");
 
-let nom = "Nicolas";
-let age = 28;
-let estEtudiant = true;
+// Déclaration d'une variable modifiable
 
+let nom = "Nicolas"; // Chaîne de caractères (String)
+let age = 28;      // Nombre (Number)
+let estEtudiant = true; // Booléen (Boolean)
+
+// Affichage des variables dans la console:
 console.log("Nom :", nom);
 console.log("Âge :", age);
 console.log("Est étudiant :", estEtudiant);
 
-let texte = "Bonjour";
-let nombre = 42;
-let estVrai = true;
-let vide = null;
-let nonDefini;
+// Les principaux types de données en JavaScript sont :
+
+let texte = "Bonjour";    // String : Chaîne de caractères (ex. "Bonjour")
+let nombre = 42;          // Number : Nombre (ex. 42)
+let estVrai = true;       // Boolean : Vrai ou faux (true ou false)
+let vide = null;          // Null : Valeur vide
+let nonDefini;            // Undefined : Variable non définie
 
 console.log(texte, nombre, estVrai, vide, nonDefini);
-
 
     // Calcul entre deux variables:
 
@@ -28,6 +34,7 @@ console.log("Multiplication :", a * b);
 console.log("Division :", a / b);
 
     // Les conditions: 
+
     // Saisie de la note entre 0 et 20:
     // && veux dire 'et' pour remplir deux conditions
 
@@ -45,7 +52,7 @@ console.log("Division :", a / b);
             console.log("Note invalide, veuillez saisir un nombre entre 0 et 20.");
         }
     
-    
+// Les boucles 'for' :
 
 // let i = 1 : Initialise la variable i à 1.
 // i <= 3 : Continue la boucle tant que i est inférieur ou égal à 3.
