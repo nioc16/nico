@@ -1,2 +1,2 @@
 console.log("Bonjour, JavaScript !");
-console.log("Bonjour depuis un fichier externe!");
+console.log("Bonjour depuis un fichier externe !");
