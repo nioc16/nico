@@ -30,7 +30,7 @@ console.log("Division :", a / b);
     // Les conditions: 
     // Saisie de la note entre 0 et 20:
     // && veux dire 'et' pour remplir deux conditions
-    
+
    let note = 20;
 
         if (note >= 16 && note <= 20) {
@@ -44,4 +44,16 @@ console.log("Division :", a / b);
         } else {
             console.log("Note invalide, veuillez saisir un nombre entre 0 et 20.");
         }
+    
+    
+
+// let i = 1 : Initialise la variable i à 1.
+// i <= 3 : Continue la boucle tant que i est inférieur ou égal à 3.
+// i++ : Incrémente i de 1 après chaque itération.
+
+for (let i = 1; i <= 3; i++) {
+    console.log("Itération :", i); // Affiche les nombres de 1 à 3
+}
+
+
 
