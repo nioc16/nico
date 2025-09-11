@@ -15,7 +15,7 @@ let nonDefini;
 console.log(texte, nombre, estVrai, vide, nonDefini);
 
 let a = 10;
-let b = 5;
+let b = 10;
 
 console.log("Addition :", a + b);
 console.log("Soustraction :", a - b);
