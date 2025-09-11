@@ -52,15 +52,21 @@ console.log("Division :", a / b);
             console.log("Note invalide, veuillez saisir un nombre entre 0 et 20.");
         }
     
-// Les boucles 'for' :
+// La boucle 'for' :
 
 // let i = 1 : Initialise la variable i à 1.
 // i <= 3 : Continue la boucle tant que i est inférieur ou égal à 3.
 // i++ : Incrémente i de 1 après chaque itération.
 
-for (let i = 1; i <= 3; i++) {
-    console.log("Itération :", i); // Affiche les nombres de 1 à 3
+for (let i = 1; i <= 10; i++) {
+    console.log("Itération :", i); // Affiche les nombres de 1 à 10
 }
+// La boucle 'while' :
+let compteur = 1;
 
+while (compteur <= 10) {
+    console.log("Compteur :", compteur);    // Affiche les nombres de 1 à 10
+    compteur++;                             // Incrémente la variable
+}
 
 
