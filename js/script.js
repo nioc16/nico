@@ -68,5 +68,3 @@ while (compteur <= 10) {
     console.log("Compteur :", compteur);    // Affiche les nombres de 1 à 10
     compteur++;                             // Incrémente la variable
 }
-
-
