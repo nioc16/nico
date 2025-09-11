@@ -16,6 +16,9 @@ let nonDefini;
 
 console.log(texte, nombre, estVrai, vide, nonDefini);
 
+
+    // Calcul entre deux variables:
+
 let a = 10;
 let b = 5;
 
@@ -24,7 +27,9 @@ console.log("Soustraction :", a - b);
 console.log("Multiplication :", a * b);
 console.log("Division :", a / b);
 
-    // Saisie de la note
+    // Les conditions: 
+    // Saisie de la note entre 0 et 20:
+    
    let note = 20;
 
         if (note >= 16 && note <= 20) {
