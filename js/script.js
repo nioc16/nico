@@ -55,7 +55,7 @@ console.log("Division :", a / b);
 // La boucle 'for' :
 
 // let i = 1 : Initialise la variable i à 1.
-// i <= 3 : Continue la boucle tant que i est inférieur ou égal à 3.
+// i <= 10 : Continue la boucle tant que i est inférieur ou égal à 3.
 // i++ : Incrémente i de 1 après chaque itération.
 
 for (let i = 1; i <= 10; i++) {
