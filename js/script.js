@@ -86,4 +86,21 @@ const carre = x => x * x;
 console.log(carre(5));                       // Affichera 25
 
 
+      // Les tableaux (Arrays) : 
+
+let animaux = ["lion", "tigre", "zebre"];     // declaration d'un tableau
+
+console.log(animaux[0]);
+console.log(animaux[1]);                      // acceder aux elements du tableau dans la console
+console.log(animaux[2]);
+
+animaux.push("elephant");                     // ajouter un nouvel element dans le tableau
+console.log(animaux);
+
+
+animaux.pop();
+console.log(animaux);                         // supprimer le dernier element
+
+
+       // les objets :
 
