@@ -55,16 +55,20 @@ console.log("Division :", a / b);
 // La boucle 'for' :
 
 // let i = 1 : Initialise la variable i à 1.
-// i <= 10 : Continue la boucle tant que i est inférieur ou égal à 10.
+// i <= 5 : Continue la boucle tant que i est inférieur ou égal à 10.
 // i++ : Incrémente i de 1 après chaque itération.
 
-for (let i = 1; i <= 10; i++) {
-    console.log("Itération :", i); // Affiche les nombres de 1 à 10
+for (let i = 1; i <= 5; i++) {
+    console.log("Itération :", i); // Affiche les nombres de 1 à 5
 }
-// La boucle 'while' :
-let compteur = 1;
 
-while (compteur <= 10) {
-    console.log("Compteur :", compteur);    // Affiche les nombres de 1 à 10
-    compteur++;                             // Incrémente la variable
+// La boucle 'while' :
+
+let i = 0;
+while (i <= 10) {
+  if (i % 2 === 0) {       //'(i % 2 ===0)' affiche les nombres paires
+    console.log(i);        // Résultat : 0 2 4 6 8 10 
+  }
+  i++;
 }
+
