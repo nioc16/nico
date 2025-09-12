@@ -74,6 +74,3 @@ while (i <= 10) {
 
 // Les fonctions :
 
-let saluer = function (Nicolas) {
-    return saluer (local function);
-}
