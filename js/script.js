@@ -109,7 +109,7 @@ let voiture = {                        // declarer un objet
     modele: "208",
     annee: "2018",
     demarrer: function(){
-        console.log("la voiture demarre");
+        console.log("la voiture demarre " + this.marque);
     }
 
 };
