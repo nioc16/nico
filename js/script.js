@@ -104,3 +104,22 @@ console.log(animaux);                         // supprimer le dernier element
 
        // les objets :
 
+let voiture = {                        // declarer un objet
+    marque: "peugeot",
+    modele: "208",
+    annee: "2018",
+    demarrer: function(){
+        console.log("la voiture demarre");
+    }
+
+};
+       // acceder aux proprietés :
+
+console.log(voiture.marque);        // affiche la marque     
+console.log(voiture.modele);        // affiche le modele
+console.log(voiture.annee);         // affiche l'annee 
+
+       // utilise la fonction :
+
+voiture.demarrer();                 // affiche la voiture demarre 
+
