@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nico test</title>
    
-
-
     <link rel="icon" type="image/x-icon" href="images/lacapsule.jpeg">
 
 </head>
@@ -16,13 +14,25 @@
      <button id="bouton">titre de test 1</button>
 
     <script>
-        // Sélectionne les éléments HTML
-        let titre = document.getElementById("titre");
+        
+        let titre = document.getElementById("titre");         // Sélectionne les éléments HTML
         let bouton = document.getElementById("bouton");
 
-        // Ajoute un événement au bouton
-        bouton.addEventListener("click", function () {
+        bouton.addEventListener("click", function () {            // Ajoute un événement au bouton
             titre.textContent = "Titre modifié par JavaScript !"; // Change le texte du titre par un click
+        });
+    </script>
+
+
+
+       <button id="monBouton">Cliquez-moi</button>
+
+    <script>
+
+        let monBouton = document.getElementById("monBouton");  // Sélectionner le bouton
+
+        monBouton.addEventListener("click", function () {      // Ajouter un événement de clic
+            console.log("Bouton cliqué !");
         });
     </script>
 
