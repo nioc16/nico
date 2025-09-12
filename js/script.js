@@ -74,3 +74,11 @@ while (i <= 10) {
 
 // Les fonctions :
 
+function saluer(nom) {
+  console.log("Bonjour, " + nom + " !");     // fonction 'saluer' viens d'etre créé
+}
+
+saluer("nicolas");                           // permet dutiliser la fonction 'saluer'
+
+
+
