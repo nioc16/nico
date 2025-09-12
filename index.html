@@ -12,9 +12,19 @@
 </head>
 <body>
 
-     <h1>Bienvenue dans le monde de JavaScript !</h1>
+     <h1 id="titre">Titre de test</h1>
+     <button id="bouton">titre de test 1</button>
 
+    <script>
+        // Sélectionne les éléments HTML
+        let titre = document.getElementById("titre");
+        let bouton = document.getElementById("bouton");
 
+        // Ajoute un événement au bouton
+        bouton.addEventListener("click", function () {
+            titre.textContent = "Titre modifié par JavaScript !"; // Change le texte du titre par un click
+        });
+    </script>
 
 
 

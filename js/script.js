@@ -81,4 +81,9 @@ function saluer(nom) {
 saluer("nicolas");                           // permet dutiliser la fonction 'saluer'
 
 
+const carre = x => x * x;
+
+console.log(carre(5));                       // Affichera 25
+
+
 
