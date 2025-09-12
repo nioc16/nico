@@ -72,3 +72,8 @@ while (i <= 10) {
   i++;
 }
 
+// Les fonctions :
+
+let saluer = function (Nicolas) {
+    return saluer (local function);
+}
