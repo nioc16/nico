@@ -36,7 +36,34 @@
         });
     </script>
 
+    <h1>Gestionnaire de tâches</h1>
 
+    <input type="text" id="tacheInput" placeholder="Entrez une tâche">
+    <button id="ajouterBouton">Ajouter</button>
+    <ul id="listeTaches"></ul>
+
+    <script>
+  
+        let input = document.getElementById("tacheInput");      // Sélectionner les éléments HTML
+        let button = document.getElementById("ajouterBouton");
+        let liste = document.getElementById("listeTaches");
+    
+        bouton.addEventListener("click", function () {        // Ajouter une tâche
+            let tache = input.value;                          // Récupérer la valeur du champ
+            if (tache !== "") {
+                let li = document.createElement("li");        // Créer un nouvel élément <li>
+                li.textContent = tache;                       // Ajouter le texte de la tâche
+                liste.appendChild(li);                        // Ajouter l'élément à la liste
+
+             
+                li.addEventListener("click", function () {    // Ajouter un événement pour supprimer la tâche
+                    liste.removeChild(li);                    // Supprimer la tâche
+                });
+
+                input.value = "";                             // Réinitialiser le champ de texte
+            }
+        });
+    </script>
 
 
 
