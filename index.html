@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nico test</title>
    
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
 
     <link rel="icon" type="image/x-icon" href="images/lacapsule.jpeg">
 
@@ -96,7 +96,38 @@
     }
   </style>
 
+<head>
+  <meta charset="UTF-8" />
+  <title>Vidéo dans un container</title>
+  <style>
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 15px;
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+    video {
+      width: 100%;    /* vidéo responsive plein container */
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
 
+  <div class="container">
+    <h2>Ma vidéo intégrée</h2>
+    <video controls loop muted autoplay>
+      <source src="images/Rayman.mp4" type="video/mp4" />
+      <source src="images/Rayman.mp4" type="video/webm" />
+      Votre navigateur ne supporte pas la vidéo.
+    </video>
+  </div>
+
+</body>
 
 
  <!-- JAVASCRIPT FILES -->
