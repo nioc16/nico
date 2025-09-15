@@ -10,41 +10,38 @@
     <link rel="icon" type="image/x-icon" href="images/lacapsule.jpeg">
 
 </head>
+<body id="section_1">
+
+    <header class="site-header">
+
+        <div class="container">
+            <div class="row">	
+
+                <div style="position:relative; height:50px;">
+                  <p style="position:absolute; top:-20px; left: 1px;">16 rue je ne sais pas 2630 je ne sais pas
+                  </p>
+                </div>
+					
+                <div style="position:relative; height:50px;">
+                  <p style="justify-content: flex-start; top:-70px; right: 1px;"> <a href="mailto:lacapsule@gmail.com"> lacapsule@gmail.com</a>
+                  </p>
+                </div>
+
+                <div style="position:relative; height:50px;">
+                  <a href="tel: +336"> 0624252627</a>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+
 
       <div class="container">
       <h1>Gestionnaire de tache</h1>
       </div>
 
-
-    <p> Ajoute une tache pour quelle soit listé </p>
-
-
-    <input type="text" id="tacheInput" placeholder="Entrez une tâche">
-    <button id="ajouterBouton">Ajouter</button>
-    <ul id="listeTaches"></ul>
-
-    <script>
-  
-        let input = document.getElementById("tacheInput");      // Sélectionner les éléments HTML
-        let boutton = document.getElementById("ajouterBouton");
-        let liste = document.getElementById("listeTaches");
-    
-        boutton.addEventListener("click", function () {        // Ajouter une tâche
-            let tache = input.value;                          // Récupérer la valeur du champ
-            if (tache !== "") {
-                let li = document.createElement("li");        // Créer un nouvel élément <li>
-                li.textContent = tache;                       // Ajouter le texte de la tâche
-                liste.appendChild(li);                        // Ajouter l'élément à la liste
-
-             
-                li.addEventListener("click", function () {    // Ajouter un événement pour supprimer la tâche
-                    liste.removeChild(li);                    // Supprimer la tâche
-                });
-
-                input.value = "";                             // Réinitialiser le champ de texte
-            }
-        });
-    </script>
 
       <div class="container">
       <h2>Tableau exemple</h2>
@@ -115,7 +112,7 @@
 
 
 
-  
+
 </body>
 
 

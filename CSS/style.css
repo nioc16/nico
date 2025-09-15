@@ -39,3 +39,11 @@ td {
   width: 70%;
   position: absolute;
 }
+
+
+.container {
+  display: flex;
+  flex-direction: column;    /* Direction verticale */
+  align-items: center;       /* Centre horizontalement */
+  justify-content: flex-start; /* Aligne en haut du container */
+}
