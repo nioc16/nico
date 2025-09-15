@@ -10,35 +10,12 @@
     <link rel="icon" type="image/x-icon" href="images/lacapsule.jpeg">
 
 </head>
-<body>
 
-     <h1 id="titre">Titre de test</h1>
-     <button id="bouton">titre de test 1</button>
-
-    <script>
-        
-        let titre = document.getElementById("titre");         // Sélectionne les éléments HTML
-        let bouton = document.getElementById("bouton");
-
-        bouton.addEventListener("click", function () {            // Ajoute un événement au bouton
-            titre.textContent = "Titre modifié par JavaScript !"; // Change le texte du titre par un click
-        });
-    </script>
+      <div class="container">
+      <h1>Gestionnaire de tache</h1>
+      </div>
 
 
-
-       <button id="monBouton">Cliquez-moi</button>
-
-    <script>
-
-        let monBouton = document.getElementById("monBouton");  // Sélectionner le bouton
-
-        monBouton.addEventListener("click", function () {      // Ajouter un événement de clic
-            console.log("Bouton cliqué !");
-        });
-    </script>
-
-    <h2>Gestionnaire de tâches</h2>
     <p> Ajoute une tache pour quelle soit listé </p>
 
 
@@ -69,8 +46,11 @@
         });
     </script>
 
-        <h3>Tableau exemple</h3>
-        <p> Exemple de tableau: </p>
+      <div class="container">
+      <h2>Tableau exemple</h2>
+      </div>
+
+      <p> Exemple de tableau: </p>
 
 <table border="1">
   <tr>
@@ -112,21 +92,30 @@
       width: 100%;    /* vidéo responsive plein container */
       height: auto;
       display: block;
-      margin: 0 auto;
+      margin: auto;
     }
   </style>
 </head>
 <body>
 
   <div class="container">
-    <h2>Ma vidéo intégrée</h2>
-    <video controls loop muted autoplay>
-      <source src="images/Rayman.mp4" type="video/mp4" />
-      <source src="images/Rayman.mp4" type="video/webm" />
-      Votre navigateur ne supporte pas la vidéo.
-    </video>
+    <h3>Ma vidéo intégrée</h3>
   </div>
 
+  <div class="video-responsive">
+  <iframe width="560" height="315" 
+          src="https://www.youtube.com/embed/O8WXFI_MSAI?si=HOU5geoM1jVq0WlL" title="YouTube video player" 
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+  ></iframe>
+  </div>
+
+
+
+
+
+
+  
 </body>
 
 

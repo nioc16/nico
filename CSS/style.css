@@ -1,6 +1,5 @@
 h1, h2, h3 {
   text-align: center;
-  background-color: rgba(0, 153, 255, 0.733);
 }
 
 p {
@@ -24,4 +23,19 @@ th {
 }
 td {
     background-color: #ffffff;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 70%;
+  width: 70%;
+  position: absolute;
 }
