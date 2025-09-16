@@ -10,7 +10,6 @@ p {
 
 
 
-
 .site-header {
   background: aquamarine;
   padding-top: 15px;
@@ -20,23 +19,9 @@ p {
 .site-header p,
 .site-header p a,
 .site-header .social-icon-link {
-  color:black;
+  color: black;
   font-size: red;
 }
-
-.site-header .social-icon {
-  text-align: right;
-}
-
-.site-header .social-icon-link {
-  background: transparent;
-  width: inherit;
-  height: inherit;
-  line-height: inherit;
-  margin-right: 15px;
-}
-
-
 
 
 
