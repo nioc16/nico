@@ -5,20 +5,23 @@ h1, h2, h3 {
 p {
   font-family: Verdana;
   font-style: italic;
-  color: red;
+  color: black;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
 }
 
 
-
 .site-header {
-  background: aquamarine;
+  background: #5bc1ac;
   padding-top: 15px;
   padding-bottom: 10px;
 }
 
 .site-header p,
-.site-header p a,
-.site-header .social-icon-link {
+.site-header p a, {
   color: black;
   font-size: red;
 }
