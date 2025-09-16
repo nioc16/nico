@@ -21,7 +21,8 @@ html, body {
 }
 
 .site-header p,
-.site-header p a, {
+.site-header p a,
+.site-header .social-icon-link {
   color: black;
   font-size: red;
 }
