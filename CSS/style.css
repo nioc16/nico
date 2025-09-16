@@ -8,6 +8,39 @@ p {
   color: red;
 }
 
+
+
+
+.site-header {
+  background: aquamarine;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.site-header p,
+.site-header p a,
+.site-header .social-icon-link {
+  color:black;
+  font-size: red;
+}
+
+.site-header .social-icon {
+  text-align: right;
+}
+
+.site-header .social-icon-link {
+  background: transparent;
+  width: inherit;
+  height: inherit;
+  line-height: inherit;
+  margin-right: 15px;
+}
+
+
+
+
+
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -22,8 +55,9 @@ th {
   background-color: #ffffff;
 }
 td {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
+
 
 .video-responsive {
   overflow: hidden;
@@ -40,10 +74,10 @@ td {
   position: absolute;
 }
 
+video {
 
-.container {
-  display: flex;
-  flex-direction: column;    /* Direction verticale */
-  align-items: center;       /* Centre horizontalement */
-  justify-content: flex-start; /* Aligne en haut du container */
+  width: 100%;    /* vidéo responsive plein container */
+  height: auto;
+  display: block;
+  margin: auto;
 }
