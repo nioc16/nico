@@ -62,19 +62,16 @@
 
 <table border="1">
   <tr>
-    <th>Prénom</th>
-    <th>Nom</th>
-    <th>Âge</th>
+    <th>Artiste</th>
+    <th>Titre</th>
   </tr>
   <tr>
-    <td>Jean</td>
-    <td>Dupont</td>
-    <td>30</td>
+    <td>Ed Sheeran</td>
+    <td>Camera</td>
   </tr>
   <tr>
-    <td>Marie</td>
-    <td>Durand</td>
-    <td>25</td>
+    <td>Gims</td>
+    <td>Parisienne</td>
   </tr>
 </table>
 
@@ -83,26 +80,32 @@
   <meta charset="UTF-8" />
   <title>Vidéo dans un container</title>
 </head>
+
 <body>
+    <div class="container">
+      <h2>Mes vidéos alignées</h2>
+        <div class="videos-wrapper">
 
-  <div class="container">
-    <h2>Ma vidéo intégrée</h2>
+           <div class="video-responsive">
+        <iframe src="https://www.youtube.com/embed/O8WXFI_MSAI?si=HOU5geoM1jVq0WlL"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+        </iframe>
+           </div>
+
+           <div class="video-responsive">
+        <iframe src="https://www.youtube.com/embed/7CGKeID7nRc?si=MDHc0amn8aD5MBMl"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+        </iframe>
+           </div>
+           
+    </div>
   </div>
-
-  <div class="video-responsive">
-  <iframe width="560" height="315" 
-          src="https://www.youtube.com/embed/O8WXFI_MSAI?si=HOU5geoM1jVq0WlL" title="YouTube video player" 
-          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-  ></iframe>
-  </div>
-
-
-
-
-
-
-
 </body>
 
 
