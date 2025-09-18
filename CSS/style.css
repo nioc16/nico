@@ -1,17 +1,13 @@
-h1, h2, h3 {
-  text-align: flex-start;
-  background-color: #5bc1ac;
-}
-
-p {
-  font-family: Verdana;
-  font-style: italic;
-  color: black;
-}
 
 html, body {
   margin: 0;
   padding: 0;
+}
+
+
+h1, h2, h3 {
+  text-align: center;
+  background-color: #5bc1ac;
 }
 
 
@@ -25,27 +21,18 @@ html, body {
 .site-header p a,
 .site-header .social-icon-link {
   color: black;
-  font-size: red;
 }
-
-
-
-.container1 {
-  background-color:beige
-}
-
-
-
 
 table {
-  width: 100%;
+  width: 50%;
   border-collapse: collapse;
   table-layout: fixed;
+  margin: 20px auto;
 }
 th, td {
-  border: 1px solid #cccccc;
+  border: 3px solid black;
   padding: 10px;
-  text-align: left;
+  text-align: center;
 }
 th {
   background-color: #ffffff;
@@ -56,24 +43,21 @@ td {
 
 
  .container {
-      max-width: 1000px;
+      max-width: 2000px;
       margin: auto;
       text-align: center;
     }
 
     .videos-wrapper {
-      display: flex;
-      flex-wrap: wrap;         /* Permet de passer à la ligne sur petits écrans */
-      gap: 20px;               /* Espace entre les vidéos */
-      justify-content: center; /* Centre l'ensemble */
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);      /* 3 colonnes égales */
+      gap: 20px;                                  /* espace entre les vidéos */
     }
 
     .video-responsive {
       position: relative;
       overflow: hidden;
-      padding-top: 56.25%; /* 16:9 */
-      flex: 1 1 45%;       /* Chaque vidéo prend environ 45% de largeur */
-      min-width: 300px;    /* Largeur minimale pour garder lisible */
+      padding-top: 56.25%;                        /* 16:9 */
     }
 
     .video-responsive iframe {
