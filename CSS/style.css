@@ -1,5 +1,6 @@
 h1, h2, h3 {
-  text-align: center;
+  text-align: flex-start;
+  background-color: #5bc1ac;
 }
 
 p {
