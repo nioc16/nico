@@ -4,12 +4,25 @@ body {
   padding: 0;
 }
 
+section {
+  margin: 0;
+  padding: 1px;
+}
+
+.section1 {
+  background-color: bisque;
+}
+
+.section2 {
+  background-color: brown;
+}
 
 h1,
 h2,
 h3 {
   text-align: center;
-  background-color: #5bc1ac;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 
@@ -29,7 +42,7 @@ h3 {
 
 .container {
   max-width: 1500px;
-  margin: auto;
+  margin: 0;
   text-align: center;
 }
 
